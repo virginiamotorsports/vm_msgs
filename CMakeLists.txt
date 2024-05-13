@@ -20,6 +20,7 @@ find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AmsReport.msg"
+  "msg/InverterReport.msg"
   "msg/VcuReport.msg"
   "msg/MotecReport.msg"
   "msg/BrakeReport.msg"
