@@ -1,5 +1,5 @@
 # takes the canbus data from the AMS and records it in rosbags
-
+std_msgs/Header header  
 
 float32[48] cell_temperatures
 float32[96] cell_voltages

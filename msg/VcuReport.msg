@@ -1,4 +1,5 @@
 #Decodes the motec data into a ros message which can be logged into a mcap file
+std_msgs/Header header  
 float32 oil_temp
 float32 coolant_temp
 float32 oil_pressure
